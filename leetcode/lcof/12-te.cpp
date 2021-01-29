@@ -74,7 +74,7 @@ private:
     void init(int x, int y) {
         this->m=x;
         this->n=y;
-        // 查了一下二维vector对初始化
+       // Note：查了一下二维vector对初始化
         visited.resize(x);
         REP(i, 0, x-1){
             visited[i].resize(y);
